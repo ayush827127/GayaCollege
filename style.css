@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(191 18 18 / 82%);
+    color: white;
+}
+
+#social-media-logo {
+    margin-left: 120px;
+}
+
+#social-media-logo i {
+    margin: 5px;
+}
+
+#top-navbar-menu {
+    margin-right: 80px;
+}
+
+#top-navbar-menu div {
+    display: inline-block;
+    margin: 5px;
+
+}
+
+#main-navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 222, 222);
+}
+
+#college-details {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#college-heading {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: blue;
+}
+
+#college-heading #college_name {
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(191 18 18 / 82%);
+}
+
+#contact-details {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+}
+
+#contact-details #call-us {
+    display: flex;
+}
+
+#contact-details #mobile-number {
+    color: rgb(58, 60, 209);
+}
+
+#contact-details #email {
+    display: flex;
+}
+
+#contact-details #call-us i {
+    margin-right: 15px;
+}
+
+#bottom-navbar {
+    background-color: rgb(241, 222, 222);
+    padding-top: 2px;
+
+}
+
+#sub-bottom-navbar {
+    background-color: rgb(191 18 18 / 82%);
+    color: white;
+    padding: 3px 0px;
+}
+
+#highlights {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 120px;
+}
+
+#students-pics {
+    display: flex;
+    background-color: rgb(241, 222, 222);
+    overflow-x: auto;
+}
+
+#students-pics::-webkit-scrollbar {
+    width: 0;
+}
+
+#students-pics .photos {
+    margin: 0px 5px;
+    animation: scroll 10s linear infinite;
+    animation-delay: 1.5s;
+}
+
+#students-pics .photos img {
+    height: 400px;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translatex(0);
+    }
+
+    100% {
+        transform: translateX(-2500px);
+    }
+}
+
+#welcome-box {
+    display: flex;
+    padding: 0px 70px;
+    background-color: rgb(241, 222, 222);
+    padding-bottom: 30px;
+}
+
+#website-designer {
+    max-width: 600px;
+    margin-right: 30px;
+}
+
+#website-designer #heading {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#website-designer #sub-headng {
+    text-align: center;
+    color: rgb(58, 60, 209);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+#website-designer #designer-details {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#website-designer #designer-details .btn {
+    background-color: rgb(191 18 18 / 82%);
+}
+
+#website-designer #designer-details .btn:hover {
+    background-color: rgb(243, 147, 91);
+}
+
+#principal-corner {
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(191 18 18 / 82%);
+    color: white;
+}
+
+#principal-corner-title {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+hr {
+    background-color: white;
+    margin-left: 10px;
+    height: 0.8px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+}
+
+#sub-principal-corner {
+    display: flex;
+    margin-left: 30px;
+}
+
+#sub-principal-corner img {
+    height: 190px;
+    box-shadow: 10px 10px 5px lightblue;
+    margin-right: 20px;
+}
+
+#sub-principal-corner img:hover {
+   cursor: pointer;
+   height: 210px;
+   border: 3px solid yellow;
+   border-radius: 20%;
+   box-shadow: 10px 10px 5px yellow;
+}
+
+#sub-principal-corner #principal-corner-details {
+    margin-top: 18px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(58, 60, 209);
+    font-size: 16px;
+    font-weight: 280;
+    color: white;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+}
+
+#admission {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: rgb(185, 81, 81);
+}
+
+#moment-video iframe {
+    width: 635px;
+    height: 350px;
+}
+
+#application {
+    margin: 0px 70px;
+}
+
+#application #application-headng {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+#application #application-details {
+    text-align: justify;
+    font-size: 16px;
+    color: white;
+}
+
+#application #application-details .btn {
+    background-color: white;
+    margin-top: 40px;
+    color: black;
+}
+
+#application #application-details .btn:hover {
+    background-color: rgb(191 18 18 / 82%);
+    color: white;
+}
+
+#directors #directors-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#directors hr {
+    margin: auto;
+    width: 260px;
+    height: 1.8px;
+    background-color: black;
+}
+
+#directors-pics {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+}
+
+.director-box {
+    border: 2px solid black;
+    background-color: rgb(185, 81, 81);
+    width: 290px;
+    height: 340px;
+    margin: 10px;
+    color: white;
+}
+
+.director-name {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.director-name:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.director-image {
+    display: flex;
+    justify-content: center;
+}
+
+.director-image img {
+    height: 265px;
+}
+.director-image img:hover {
+    height: 245px;
+    border: 3px solid yellow;
+    border-radius: 50%;
+}
+
+
+
+.director-postion {
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+#recuritors #recuritors-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+#recuritors hr {
+    margin: auto;
+    width: 140px;
+    height: 2px;
+    background-color: black;
+}
+
+#company-logo {
+    margin: 40px 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#company-logo img {
+    width: 200px;
+}
+
+
+.hover-link {
+    color: #183b56;
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    color: #2294ed;
+}
+
+footer {
+    padding-block: 60px;
+    background-color: rgb(241, 222, 222);
+}
+
+/* link-column  */
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.footer-container {
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footer-container-logo {
+    width: 5rem;
+}
+
+/* sub-footer-container */
+.sub-footer {
+    background-color: rgb(185, 81, 81);
+    padding: 20px;
+}
+
+.sub-footer-container {
+    justify-content: center;
+    gap: 30px;
+}
+
+.sub-footer-container a{
+   color: white;
+}

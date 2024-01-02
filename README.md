@@ -1,2 +1,2 @@
 # GayaCollege
-This app is desgined for lentertainment purpose only.
+This app is desgined for entertainment purpose only.
